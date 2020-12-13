@@ -6,6 +6,7 @@ class BlogsController < ApplicationController
   def index
     @blogs = Blog.all
   end
+  
 
   # GET /blogs/1
   # GET /blogs/1.json
@@ -52,7 +53,7 @@ class BlogsController < ApplicationController
       end
     end
   end
-  
+
 
   # DELETE /blogs/1
   # DELETE /blogs/1.json
