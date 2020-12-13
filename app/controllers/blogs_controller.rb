@@ -52,6 +52,7 @@ class BlogsController < ApplicationController
       end
     end
   end
+  
 
   # DELETE /blogs/1
   # DELETE /blogs/1.json
